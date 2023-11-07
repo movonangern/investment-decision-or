@@ -40,4 +40,4 @@ model.solve()
 for var in investment_vars:
     print(f"{investment_vars[var].name}: {model.getSolution(investment_vars[var])}")
     
-print(f"Objective function value: {model.getObjVal()}")
+print(f"Objective function value: {model.getObjVal()}") 
